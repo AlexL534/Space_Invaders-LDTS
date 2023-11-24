@@ -38,7 +38,21 @@ The use of the State Pattern in the current design allows the following benefits
 - There are now more classes and instances to manage.
 
 
-#### HOW TO RENDER THE SHOTS
+#### MVC Pattern
+
+We noticed the code looked a bit messy and it would be hard for other people to read it and understand it.
+
+So we decided that we will use this pattern to separate the game logic from the display code, this makes the code more readable and easier to fix.
+
+
+The use of the MVC Pattern in the current design allows the following benefits:
+
+- Its easier to add features and to fix bugs.
+- The code will be more organised, so its easier to read and to write.
+
+
+#### Singleton Pattern
+
 
 ...
 
