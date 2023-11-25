@@ -1,7 +1,7 @@
 package com.aor.space_invaders.model.game.space;
 
-import com.aor.space_invaders.elements.Alien;
-import com.aor.space_invaders.elements.SpaceShip;
+import com.aor.space_invaders.model.game.elements.Alien;
+import com.aor.space_invaders.model.game.elements.SpaceShip;
 
 import java.util.ArrayList;
 import java.util.List;
