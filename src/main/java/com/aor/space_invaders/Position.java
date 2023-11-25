@@ -1,10 +1,12 @@
+package com.aor.space_invaders;
+
 public class Position {
     private int x;
     private int y;
 
-    public Position(int x, int i) {
+    public Position(int x, int y) {
         this.x = x;
-        y = i;
+        this.y = y;
     }
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -28,4 +30,18 @@ public class Position {
     public void setY(int i1) {
         y = i1;
     }
+
+    public Position moveLeft() {
+        return new Position(getX()-1,getY());
+    }
+    public Position moveRight() {
+        return new Position(getX()+1,getY());
+    }
+    public Position moveUp() {
+        return new Position(getX(),getY()-1);
+    }
+    public Position moveDown() {
+        return new Position(getX(),getY()+1);
+    }
+
 }
