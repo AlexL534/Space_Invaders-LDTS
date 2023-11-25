@@ -1,29 +1,37 @@
 package com.aor.space_invaders.model.game.elements;
 
 import com.aor.space_invaders.Position;
+import com.aor.space_invaders.model.game.elements.powerups.PowerUp;
 
 public class SpaceShip extends Element {
-    Bullet temp_bullet;
-    private int health;
+    private Bullet temp_bullet = null;
+    private int lives;
+    private PowerUp powerUp = null;
     public SpaceShip(int x1, int x2) {
         super(x1, x2);
-        this.health = 3;
+        this.lives = 3;
+    }
+    public Bullet getBullet() {
+        return temp_bullet;
     }
     public void removeLife(){
-        this.health--;
+        this.lives--;
     }
     public int getHP() {
-        return this.health;
+        return this.lives;
     }
+    public void addBullet(Bullet bullet){temp_bullet = bullet;}
     public void shoot(){
-        temp_bullet.spaceshipTick();
+        if (temp_bullet!=null) temp_bullet.spaceshipTick();
     }
     public Position getBulletPos(){
         return temp_bullet.getPosition();
     }
-
     public void deleteBullet() {
         Position pos = new Position(-1,0);
         temp_bullet.setPosition(pos);
+    }
+    public void setHP(int i) {
+        lives = i;
     }
 }

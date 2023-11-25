@@ -8,7 +8,7 @@ public class Alien extends Element {
         super(x1, x2);
     }
     public void shoot(){
-        temp_bullet.alienTick(getPosition());
+        if (temp_bullet != null) temp_bullet.alienTick();
     }
     public Position getBulletPos(){
         return temp_bullet.getPosition();
