@@ -1,7 +1,6 @@
 package com.aor.space_invaders.model.game.space;
 
 import com.aor.space_invaders.Position;
-import com.aor.space_invaders.elements.*;
 import com.aor.space_invaders.model.game.elements.Alien;
 import com.aor.space_invaders.model.game.elements.SpaceShip;
 

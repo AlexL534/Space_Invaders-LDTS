@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9159092b-f2c0-40e2-90df-afc098c09559" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/PowerUpShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/powerups/ExtraLife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/powerups/FasterFireRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/powerups/PowerUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/powerups/SlowerFireRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/powerups/TripleShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Alien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/SpaceShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/LoaderSpaceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/LoaderSpaceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Game.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/SpaceShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/SpaceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/SpaceBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +80,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "modelandgui__implemented",
-    "last_opened_file_path": "C:/LAB06",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;modelandgui__implemented&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/LAB06&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game" />
@@ -159,7 +170,12 @@
       <workItem from="1700696302510" duration="626000" />
       <workItem from="1700763286394" duration="78000" />
       <workItem from="1700844886412" duration="22000" />
-      <workItem from="1700866879719" duration="6682000" />
+      <workItem from="1700866879719" duration="6900000" />
+      <workItem from="1700918587933" duration="5394000" />
+      <workItem from="1700927646223" duration="154000" />
+      <workItem from="1700927955388" duration="494000" />
+      <workItem from="1700928599105" duration="96000" />
+      <workItem from="1700928771215" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />
