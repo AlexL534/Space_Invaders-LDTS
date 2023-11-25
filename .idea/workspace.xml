@@ -5,37 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9159092b-f2c0-40e2-90df-afc098c09559" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/SpaceShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/gui/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/gui/LGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/LoaderSpaceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/Space.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/SpaceBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LDTS-PROJECT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/initial-space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Allien.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Element.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Space.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpaceShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/elements/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/elements/SpaceShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/LoaderSpaceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/LoaderSpaceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/SpaceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/space_invaders/model/game/space/SpaceBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "updated__readme",
+    "git-widget-placeholder": "modelandgui__implemented",
     "last_opened_file_path": "C:/LAB06",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -182,7 +159,7 @@
       <workItem from="1700696302510" duration="626000" />
       <workItem from="1700763286394" duration="78000" />
       <workItem from="1700844886412" duration="22000" />
-      <workItem from="1700866879719" duration="5870000" />
+      <workItem from="1700866879719" duration="6682000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />

@@ -1,4 +1,4 @@
-package com.aor.space_invaders.elements;
+package com.aor.space_invaders.model.game.elements;
 
 import com.aor.space_invaders.Position;
 
