@@ -29,7 +29,8 @@ Things like the movement of the aliens (and the drawing), drop of a power-up aft
 create a font for the game (to help draw the elements without them being only a character) etc... 
 It will look something like this...
 
-![example.gif](..%2FUsers%2FUtilizador%2FDownloads%2Fexample.gif)
+![example.gif](docs%2Fexample.gif)
+
 
 
 ## DESIGN
@@ -37,42 +38,68 @@ It will look something like this...
 Our UML for this project looks like this.
 
 
+![uml-project-.png](docs%2Fuml-project-.png)
 
 
-#### THE SHOOT ACTION SHOULD BE DIFFERENT DEPENDING ON WHICH/NONE POWER-UP
+#### The Shoot Action should be different depending on each power-up / no power-up
 
+##### Problem in Context
 We were thinking of using a lot of conditional logic when deciding how would the spaceship behave while shooting, since shooting should be different based on which power-up (triple-shot, bomb, shield, half fire-rate shooting...). 
-
+##### The Pattern
 Instead, we will apply the State pattern. Making it possible to distinguish different states based on what power-ups the player has...
-
+#### Implementation
+Can be seen in the image of our UML 
+#### Consequences
 The use of the State Pattern in the current design allows the following benefits:
 
 - The several states that represent the spaceship shooting will be easier to control and to understand, instead of relying on a series of flags.
-- We don’t need to have a long set of conditional if or switch statements associated with the various states; instead, polimorphism is used to activate the right behavior.
+- We don’t need to have a long set of conditional if or switch statements associated with the various states; instead, polymorphism is used to activate the right behavior.
 - There are now more classes and instances to manage.
 
 
 #### MVC Pattern
-
-We noticed the code looked a bit messy and it would be hard for other people to read it and understand it.
-
+##### Problem in Context
+We noticed the code looked a bit messy, and it would be hard for other people to read it and understand it.
+##### The Pattern
 So we decided that we will use this pattern to separate the game logic from the display code, this makes the code more readable and easier to fix.
-
-
+##### Implementation
+Can be seen in the image of our UML
+##### Consequences
 The use of the MVC Pattern in the current design allows the following benefits:
 
 - Its easier to add features and to fix bugs.
-- The code will be more organised, so its easier to read and to write.
+- The code will be more organised, so it's easier to read and to write.
 
 
-#### Singleton Pattern
+#### Observer Pattern
+##### Problem in Context 
+We noticed that there were objects that will be interested in the actions of another one, so we decided to implement the Observer Pattern on reading keystrokes (user inputs), since some classes will need to be notified when a certain input is made, we determined it would be best to
+use this pattern.
+##### Implementation
+Can be seen in the image of our UML
+##### The Pattern/Consequences
+The use of the Observer Pattern in the current design allows the following benefits:
+- Enables objects to have relations between them in runtime without changing the main class.
 
 
-...
+#### Factory Pattern
+##### Problem in Context
 
+We noticed the entities of our game had some similarities, but it wouldn't do us any better having a common interface because it wouldn't be reusable, classes that implement such interface have different atributes and types, so instead of having them separated
+and when needed to change a common attribute having to change all the classes, we decided it was best to use this Pattern.
+
+##### The Pattern
+This Factory pattern defines an interface for creating objects, but lets subclasses decide which classes to instantiate.
+
+##### Implementation
+Can be seen in the image of our UML
+##### Consequences 
+The use of the Factory Pattern in the current design allows the following benefits:
+- Factory methods eliminate the need to bind application-specific classes into your code.
+- The code only needs to deal with the Product interface; therefore it can work with any user-defined ConcreteProduct classes. 
 #### KNOWN CODE SMELLS 
 
-Our code, since it's not refined, it's not well organised, so it's a bit confusing and not clean. 
+We didn't notice any  code smells.
 
 ### TESTING
 
@@ -81,4 +108,7 @@ Link to mutation testing report..
 
 ### SELF-EVALUATION
 
-....
+Pedro Borges - 33.3%
+Alexandre Lopes - 33.3%
+Tomás Linhares - 33.3%
+~~~~
