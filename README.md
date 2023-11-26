@@ -29,8 +29,7 @@ Things like the movement of the aliens (and the drawing), drop of a power-up aft
 create a font for the game (to help draw the elements without them being only a character) etc... 
 It will look something like this...
 
-![example.gif](docs%2Fexample.gif)
-
+![space_invaders.gif](docs%2Fspace_invaders.gif)
 
 
 ## DESIGN
@@ -38,7 +37,10 @@ It will look something like this...
 Our UML for this project looks like this.
 
 
-![uml-project-.png](docs%2Fuml-project-.png)
+
+![uml-image.png](docs%2Fuml-image.png)
+
+
 
 
 #### The Shoot Action should be different depending on each power-up / no power-up
@@ -55,8 +57,6 @@ The use of the State Pattern in the current design allows the following benefits
 - The several states that represent the spaceship shooting will be easier to control and to understand, instead of relying on a series of flags.
 - We don’t need to have a long set of conditional if or switch statements associated with the various states; instead, polymorphism is used to activate the right behavior.
 - There are now more classes and instances to manage.
-
-
 #### MVC Pattern
 ##### Problem in Context
 We noticed the code looked a bit messy, and it would be hard for other people to read it and understand it.
@@ -69,7 +69,6 @@ The use of the MVC Pattern in the current design allows the following benefits:
 
 - Its easier to add features and to fix bugs.
 - The code will be more organised, so it's easier to read and to write.
-
 
 #### Observer Pattern
 ##### Problem in Context 
