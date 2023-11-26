@@ -12,7 +12,7 @@ import com.googlecode.lanterna.screen.TerminalScreen;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal;
 import com.googlecode.lanterna.terminal.swing.AWTTerminalFontConfiguration;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.mockito.Mockito;
 
@@ -45,7 +45,7 @@ public class LGUITest{
 
     @Test
     public void drawText() {
-        gui.drawText (new Position(1,1), "Hello World", "##336699");
+        gui.drawText (new Position(1,1), "Hello World", "#336699");
         Mockito.verify(tg, Mockito.times(1)).setForegroundColor(new TextColor.RGB(51, 102, 153));
         Mockito.verify(tg, Mockito.times(1)).putString(1, 1, "Hello World");
     }

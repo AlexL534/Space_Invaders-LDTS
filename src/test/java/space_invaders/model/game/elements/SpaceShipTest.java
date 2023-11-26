@@ -4,7 +4,7 @@ import com.aor.space_invaders.Position;
 import com.aor.space_invaders.model.game.elements.Bullet;
 import com.aor.space_invaders.model.game.elements.SpaceShip;
 import com.aor.space_invaders.model.game.elements.powerups.PowerUp;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

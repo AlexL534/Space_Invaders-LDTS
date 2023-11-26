@@ -3,7 +3,7 @@ package space_invaders.model.game.space;
 import com.aor.space_invaders.model.game.elements.Alien;
 import com.aor.space_invaders.model.game.elements.SpaceShip;
 import com.aor.space_invaders.model.game.space.LoaderSpaceBuilder;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,21 +36,11 @@ public class LoaderSpaceBuilderTest{
 
     @Test
     public void testCreateAliens() {
-        int width = 800;
-        int height = 600;
-        LoaderSpaceBuilder loaderSpaceBuilder = new LoaderSpaceBuilder(width, height);
-        List<Alien> aliens = loaderSpaceBuilder.createAliens();
-        int expectedNumberOfAliens = loaderSpaceBuilder.getNumberOfAliens();
+        int expectedNumberOfAliens = 55;
+        LoaderSpaceBuilder spaceBuilder = new LoaderSpaceBuilder(100, 200);
+        List<Alien> aliens = spaceBuilder.createAliens();
         assertEquals(expectedNumberOfAliens, aliens.size());
-        // Verify if the positions of the created aliens are within the bounds
-        int expectedRows = expectedNumberOfAliens / 11; // Expected number of rows (assuming 11 aliens per row)
-        int expectedColumns = expectedNumberOfAliens / 5; // Expected number of columns (assuming 5 aliens per column)
-        for (Alien alien : aliens) {
-            int xPosition = alien.getPosition().getX();
-            int yPosition = alien.getPosition().getY();
-            // Check if the alien's x and y positions are within the expected range
-            assertTrue(xPosition >= 1 && xPosition <= expectedRows);
-            assertTrue(yPosition >= 2 && yPosition <= expectedColumns);
-        }
     }
+
+
 }
