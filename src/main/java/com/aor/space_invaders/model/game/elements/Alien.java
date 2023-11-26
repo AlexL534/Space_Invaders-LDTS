@@ -16,4 +16,7 @@ public class Alien extends Element {
     public void deleteBullet(Position pos) {
         temp_bullet.setPosition(pos);
     }
+    public void setBulletPos(Position enemyBulletPosition) {
+        temp_bullet.setPosition(enemyBulletPosition);
+    }
 }
