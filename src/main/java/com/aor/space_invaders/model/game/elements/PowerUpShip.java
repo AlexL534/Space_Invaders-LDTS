@@ -25,5 +25,5 @@ public class PowerUpShip extends Element{
                 powerUp = new TripleShot(x, y);
         }
     }
-    
+
 }

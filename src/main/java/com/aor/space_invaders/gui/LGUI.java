@@ -20,20 +20,21 @@ import java.net.URL;
 
 
 public class LGUI implements GUI{
-        private final Screen screen;
+        Screen screen;
+        protected  Terminal terminal;
         public LGUI(Screen screen) {
             this.screen = screen;
         }
         public LGUI(int width, int height) throws IOException, FontFormatException, URISyntaxException {
             AWTTerminalFontConfiguration fontConfig = loadSquareFont();
-            Terminal terminal = createTerminal(width, height, fontConfig);
+            this.terminal = createTerminal(width, height, fontConfig);
             this.screen = createScreen(terminal);
         }
         private Screen createScreen(Terminal terminal) throws IOException {
             final Screen screen;
             screen = new TerminalScreen(terminal);
-            screen.setCursorPosition(null);
-            screen.startScreen();
+            screen.setCursorPosition(null);  // we don't need a cursor
+            screen.startScreen();           // we need to start it
             screen.doResizeIfNecessary();
             return screen;
         }
@@ -56,6 +57,7 @@ public class LGUI implements GUI{
             Font loadedFont = font.deriveFont(Font.PLAIN, 25);
             return AWTTerminalFontConfiguration.newInstance(loadedFont);
         }
+
 
         public ACTION getNextAction() throws IOException {
             KeyStroke keyStroke = screen.pollInput();

@@ -2,7 +2,7 @@ package com.aor.space_invaders.model.game.elements;
 
 import com.aor.space_invaders.Position;
 
-public abstract class  Element {
+public class  Element {
     private Position position;
     private boolean is_alive = true;
     public boolean isAlive() {

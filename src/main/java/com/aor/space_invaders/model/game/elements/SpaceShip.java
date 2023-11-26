@@ -21,8 +21,9 @@ public class SpaceShip extends Element {
         return this.lives;
     }
     public void addBullet(Bullet bullet){temp_bullet = bullet;}
-    public void shoot(){
+    public boolean shoot(){
         if (temp_bullet!=null) temp_bullet.spaceshipTick();
+        return true;
     }
     public Position getBulletPos(){
         return temp_bullet.getPosition();

@@ -18,15 +18,15 @@ public class LoaderSpaceBuilder extends SpaceBuilder{
         numberOfALiens = 55; //number of aliens in the game, 5 rows of 11 aliens.
     }
     @Override
-    protected int getWidth() {
+    public int getWidth() {
         return width;
     }
     @Override
-    protected int getHeight() {
+    public int getHeight() {
         return height;
     }
     @Override
-    protected List<Alien> createAliens() {
+    public List<Alien> createAliens() {
         List<Alien> aliens = new ArrayList<>();
         for(int x = 1 ; x<(numberOfALiens/11)+1 ; x++){
             for (int y = 2; y<(numberOfALiens/5)+2;y++){
@@ -38,7 +38,11 @@ public class LoaderSpaceBuilder extends SpaceBuilder{
     }
 
     @Override
-    protected SpaceShip createSpaceship() {
+    public SpaceShip createSpaceship() {
         return new SpaceShip(width/2 ,height - 3);
+    }
+
+    public int getNumberOfAliens() {
+        return numberOfALiens;
     }
 }
