@@ -4,7 +4,7 @@ import com.aor.space_invaders.Position;
 import com.aor.space_invaders.model.game.elements.Alien;
 import com.aor.space_invaders.model.game.elements.SpaceShip;
 import com.aor.space_invaders.model.game.space.Space;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.util.ArrayList;
@@ -66,6 +66,8 @@ public class SpaceTest {
         Mockito.when(spaceShip.shoot()).thenReturn(true);
         // Verify before bullet collision: Expecting one alien initially
         assertEquals(1, space.getAliens().size());
+
+        Mockito.when(spaceShip.getBulletPos()).thenReturn(null);
         // Move the bullet (assuming upward movement)
         space.verifySpaceshipBullets();
         // Verify after bullet collision: Expecting aliens list to be empty after collision

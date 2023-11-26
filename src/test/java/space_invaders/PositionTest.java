@@ -1,7 +1,7 @@
 package space_invaders;
 
 import com.aor.space_invaders.Position;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

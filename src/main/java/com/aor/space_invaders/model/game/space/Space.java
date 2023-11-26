@@ -48,7 +48,10 @@ public class Space {
         }
         public void verifySpaceshipBullets() {
             for(Alien alien : aliens){
-                if (spaceship.getBulletPos() == alien.getPosition()) {aliens.remove(alien); spaceship.deleteBullet();}
+                if (spaceship.getBulletPos().equals(alien.getPosition())) {
+                    aliens.remove(alien);
+                    spaceship.deleteBullet();
+                }
             }
         }
         public boolean canSpaceShipMove(Position position) {return position.getX()<width-1 && position.getX()>0;
