@@ -3,7 +3,7 @@ package com.aor.space_invaders.model.game.elements;
 import com.aor.space_invaders.Position;
 
 public class Alien extends Element {
-    Bullet temp_bullet;
+    private Bullet temp_bullet;
     public Alien(int x1, int x2) {
         super(x1, x2);
     }
