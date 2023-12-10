@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="space_invaders.gui.LGUITest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-09T02:08:15" hostname="DESKTOP-BE69BVV" time="0.069">
+  <properties/>
+  <testcase name="drawText()" classname="space_invaders.gui.LGUITest" time="0.067"/>
+  <testcase name="drawSpaceship()" classname="space_invaders.gui.LGUITest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
