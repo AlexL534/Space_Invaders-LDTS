@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.space_invaders.model.menu.ModelMainMenuTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-24T03:18:49" hostname="DESKTOP-BE69BVV" time="0.007">
-  <properties/>
-  <testcase name="testPreviousEntry()" classname="com.space_invaders.model.menu.ModelMainMenuTest" time="0.004"/>
-  <testcase name="testSelectedEntries()" classname="com.space_invaders.model.menu.ModelMainMenuTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
