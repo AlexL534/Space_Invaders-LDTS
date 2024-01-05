@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.space_invaders.model.game.space.SpaceBuilderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-24T03:18:49" hostname="DESKTOP-BE69BVV" time="0.001">
-  <properties/>
-  <testcase name="testCreateSpace()" classname="com.space_invaders.model.game.space.SpaceBuilderTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
