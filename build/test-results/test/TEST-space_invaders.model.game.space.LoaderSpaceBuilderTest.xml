@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="space_invaders.model.game.space.LoaderSpaceBuilderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-26T19:18:30" hostname="DESKTOP-BE69BVV" time="0.005">
-  <properties/>
-  <testcase name="testLoaderSpaceBuilderConstructor()" classname="space_invaders.model.game.space.LoaderSpaceBuilderTest" time="0.002"/>
-  <testcase name="testCreateSpaceship()" classname="space_invaders.model.game.space.LoaderSpaceBuilderTest" time="0.001"/>
-  <testcase name="testCreateAliens()" classname="space_invaders.model.game.space.LoaderSpaceBuilderTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
