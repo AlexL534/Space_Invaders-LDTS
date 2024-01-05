@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.space_invaders.viewer.ViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-24T03:18:50" hostname="DESKTOP-BE69BVV" time="0.038">
-  <properties/>
-  <testcase name="testDraw()" classname="com.space_invaders.viewer.ViewerTest" time="0.038"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

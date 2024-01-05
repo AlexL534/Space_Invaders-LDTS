@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.space_invaders.model.menu.ModelInstructionMenuTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-24T03:18:49" hostname="DESKTOP-BE69BVV" time="0.008">
-  <properties/>
-  <testcase name="testIsSelectedWhenFalse()" classname="com.space_invaders.model.menu.ModelInstructionMenuTest" time="0.001"/>
-  <testcase name="testIsSelectedWhenTrue()" classname="com.space_invaders.model.menu.ModelInstructionMenuTest" time="0.007"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
