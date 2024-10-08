@@ -7,4 +7,3 @@ public abstract class Bullet  extends Element {
         super(x1, x2);
     }
 }
-
