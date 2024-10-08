@@ -1,13 +1,18 @@
 plugins {
     id 'java'
-    id 'info.solidsoft.pitest' version '1.7.0'
+    id 'info.solidsoft.pitest' version '1.15.0'
 }
 
-group = 'org.space_invaders'
+group 'com.space_invaders'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+pitest {
+    junit5PluginVersion = '1.2.1'
+    pitestVersion = '1.15.2'
 }
 
 dependencies {
