@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+package com.aor.space_invaders;
+import com.aor.space_invaders.gui.LGUI;
+
+
+public class Game {
+
+}
+=======
 package com.aor.space_invaders;
 import com.aor.space_invaders.gui.LGUI;
 import com.aor.space_invaders.model.menu.ModelMainMenu;
@@ -48,3 +57,4 @@ public class Game {
         gui.close();
     }
 }
+>>>>>>> 4f06f33b1ab10fb6901ee4044b250ab34a12b343
