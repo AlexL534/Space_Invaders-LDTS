@@ -55,8 +55,4 @@ public class GameViewerTest {
         verify(mockGUI, times(1)).drawSpaceShipBullet(any()); // Add verification for drawSpaceShipBullet
         // Verify other draw methods based on the number of elements expected to be drawn
     }
-
-
-
-    // Add more tests for other private methods if needed
 }

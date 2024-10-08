@@ -23,4 +23,3 @@ public class EndScreenMenuViewer extends Viewer<ModelEndScreen> {
         gui.drawText(new Position(0, 15), "   Press ENTER to confirm      ", "#FFFFFF");
     }
 }
-
