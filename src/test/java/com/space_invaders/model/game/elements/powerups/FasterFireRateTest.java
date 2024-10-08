@@ -18,4 +18,3 @@ public class FasterFireRateTest {
         assertEquals(800 / 2, spaceShip.getTimeToWait());
     }
 }
-
