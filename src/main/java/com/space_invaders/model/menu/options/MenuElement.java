@@ -51,4 +51,3 @@ public class MenuElement<T> {
         this.borderColor = borderColor;
     }
 }
-
