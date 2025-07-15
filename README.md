@@ -1,5 +1,7 @@
 # LDTS_14_08 - Space Invaders
 
+**Final Grade:** 17.2/20
+
 ## Game Description
 In this 2D fixed shooter game, the player controls a spaceship that shoots lasers!
 The objective of the player is to fire at the aliens and survive. The game will be infinite giving a score in the end of the game.
