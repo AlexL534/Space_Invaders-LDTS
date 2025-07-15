@@ -1,6 +1,6 @@
 # LDTS_14_08 - Space Invaders
 
-**Final Grade:** 17.2/20
+### **Final Grade:** 17.2/20
 
 ## Game Description
 In this 2D fixed shooter game, the player controls a spaceship that shoots lasers!
